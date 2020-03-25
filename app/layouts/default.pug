@@ -10,13 +10,10 @@ html.no-js(lang='')
 		//- build:css styles/vendor.css
 		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css', type='text/css')
 		link(rel='stylesheet', href='http://pages.revox.io/dashboard/4.1.0/html/condensed/pages/css/pages-icons.css', type='text/css')
-		link(rel='stylesheet', href='/node_modules/bootstrap/dist/css/bootstrap.css', type='text/css')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', type='text/css')
 		//- endbuild
 		//- build:css styles/main.css
-		link(rel='stylesheet', href='styles/main.css', type='text/css')
-		//- endbuild
-		//- build:js scripts/vendor/modernizr.js
-		script(src='scripts/modernizr.js')
+		link(rel='stylesheet', href='./styles/main.css', type='text/css')
 		//- endbuild
 	body
 		<!--[if IE]>
@@ -164,5 +161,5 @@ html.no-js(lang='')
 
 		//- endbuild
 		//- build:js scripts/main.js
-		script(type='text/javascript', src='scripts/main.js')
+		script(src='scripts/main.js', type='text/javascript')
 		//- endbuild
