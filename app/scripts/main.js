@@ -12,9 +12,9 @@ $(function() {
 			}, false)
 		})
 	}, false)
-	$("#cardNumber").mask('0000 0000 0000 0000');
-	$(".date-valid").mask('00');
-	$("#ccv").mask('000');
+	$('#cardNumber').mask('0000 0000 0000 0000');
+	$('.date-valid').mask('00');
+	$('#ccv').mask('000');
 });
 
 function del(e) {
@@ -42,5 +42,5 @@ function doCount() {
 		else
 			sum = sum + parseFloat(price - (price * 0));
 	});
-	$(".total").text(sum.toFixed(2));
+	$('.total').text(sum.toFixed(2));
 }

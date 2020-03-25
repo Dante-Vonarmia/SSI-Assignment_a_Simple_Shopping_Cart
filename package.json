@@ -3,11 +3,13 @@
   "engines": {
     "node": ">=4"
   },
+  "homepage": "https://Dante-Vonarmia.github.io/shopping_cart_demo",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "modernizr": "^3.7.1",
-    "@fortawesome/fontawesome-free": "^5.11.2",
     "popper.js": "^1.15.0"
   },
   "devDependencies": {
@@ -45,7 +47,9 @@
     "start": "gulp serve",
     "build": "cross-env NODE_ENV=production gulp",
     "test": "npm run serve:test",
-    "tasks": "gulp --tasks"
+    "tasks": "gulp --tasks",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     "> 1%",
