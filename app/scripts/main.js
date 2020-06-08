@@ -26,7 +26,6 @@ $('.custom-select').on('change', function() {
 	var thisVal = $(this),
 		_singlePrice = $(this).parent().next().find('span').attr('value'),
 		_price = 0;
-		console.log(_singlePrice);
 	_price = parseFloat(_singlePrice * thisVal.val()).toFixed(2);
 	$(this).parent().next().find('span').text(_price);
 	doCount();
