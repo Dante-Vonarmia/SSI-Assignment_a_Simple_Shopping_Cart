@@ -5,25 +5,19 @@
 ### Requirements
 ---
 
-- [x] HTML5 + CSS3 for the layout
-- [x] JavaScirpt to realize the functions
-- [x] Key-press events available
-- [x] OnClick events available
-- [x] Add event listeners with the event delegation pattern (optional)
+- [x] node environment
+- [x] Using npm to manage the project (learn package.json)
+- [x] Using create-react-app to create project
+- [x] Webpack for automation manually (optional)
+- [x] Bootstrap for the layout
+- [x] Using React Class components and Child components
 
 ### Modules
 ---
 
-- [x] Basic Calculation: addition; subtraction; multiplication; division
-- [x] Square and Square root (optional)
-- [x] Factorial (optional)
-- [x] Decimal point
-- [x] Throw error if the number is invalid or too large
-- [x] A "Del" or "Clean" button
-- [x] Show math expression in the calculate screen area
-- [x] Calculate screen area editable (optional)
-
-### Special Offer
----
-
-> To be continued...
+- [x] Table head: Product,	Discount,	Quantity,	Price	Action
+- [x] Table body: shopping lists with details and summation price
+- [x] Item deletable
+- [x] Item has inventory
+- [x] Table foot: continue shopping(dummy), Checkout(a modual layer)
+- [x] Form validation (see the demo)
