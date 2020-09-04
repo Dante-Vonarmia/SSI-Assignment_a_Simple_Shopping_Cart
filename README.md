@@ -8,8 +8,8 @@
 - [x] node environment
 - [x] Using npm to manage the project (learn package.json)
 - [x] Using create-react-app to create project
-- [x] Webpack for automation manually (optional)
-- [x] Bootstrap for the layout
+- [x] Webpack for automation (manually) (optional)
+- [x] Bootstrap for the layout decoration
 - [x] Using React Class components and Child components
 
 ### Modules
